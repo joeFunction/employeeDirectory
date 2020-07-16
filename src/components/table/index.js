@@ -11,8 +11,8 @@ const TableRow = (props) => {
         <tr>
           <th>#</th>
           <th>Picture</th>
-          <th>First Name</th>
-          <th>Last Name</th>
+          <th onClick = {() => props.handleSubmit("first")}>First Name</th>
+          <th onClick = {() => props.handleSubmit("last")}>Last Name</th>
           <th>Email</th>
 
           <th>Phone</th>

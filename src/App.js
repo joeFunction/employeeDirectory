@@ -21,15 +21,40 @@ console.log(people.data.results)
       }) 
     }) 
   }
+  handleInputChange = (event) => {
+      const { name, value } = event.target
+      this.setState({ 
+        [name]: value
+      })
+      console.log(value)
+       const newEmployees = this.state.original.filter(employee => {
+         return employee.name.first.toLowerCase().includes(value.toLowerCase())
+       })   
+       this.setState({ 
+         results: newEmployees
+       })
+  }
+  handleSubmit = (columnName) => {
+    const newEmployees = this.state.results.sort((a,b) => {
+      return a.name[columnName].localeCompare(b.name[columnName]) 
+      console.log(a.name[columnName])
+    })
 
+    this.setState({ 
+      results: newEmployees
+    })
+  }
 
   render () {
     return (
       <Container className="App">
-         search :   <Input style = {{width: "50%"}} />
+         search :   <Input style = {{width: "50%"}} name="search" value={this.state.search}
+         onChange = {this.handleInputChange}
+         
+         />
          <TableRow   results= {
            this.state.results
-         } />
+         }  handleSubmit = {this.handleSubmit} />
       </Container>
     );
   }
