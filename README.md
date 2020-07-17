@@ -29,6 +29,9 @@ The user is able to:
   * Sort the table by at first and last name category.
 
   * Filter the users by at least one property.
+
+### Site Link
+  * [Employee App](https://joefunction.github.io/employeeDirectory/)
   
 
  ### Contribution
