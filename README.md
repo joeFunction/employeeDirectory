@@ -4,9 +4,9 @@ The theme of this application is based on a employee directory with React. This 
    
   ### Table of Contents:
   - [User Story](#user-story-speech_balloon)
-  - [Installation](#installation-floppy_disk)
   - [Usage](#usage)
   - [Functionality](#functionality)
+  - [Site Link](#Site-Link)
   - [Contribution](#contribution-handshake)
   - [Author](#author)
   - [License](#license-trophy)
