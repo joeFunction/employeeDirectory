@@ -1,8 +1,6 @@
-# employeeDirectory
+### Unit 19 React: Employee Directory
 
-### Unit 17 Nosql: Workout Tracker
-
-The theme of this application is based on a workout tracker. Development is supported by Mongo DB with a Mongoose schema and distribution of routes with Express.
+The theme of this application is based on a employee directory with React. This assignment breaks up the application's UI into components, component states, and is responsive to user events.
    
   ### Table of Contents:
   - [User Story](#user-story-speech_balloon)
@@ -15,32 +13,27 @@ The theme of this application is based on a workout tracker. Development is supp
   
   ### User Story
     ``
-    As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+    As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
     ``
   
-  ###  Installation
-  > npm i 
-    
   ### Usage
 
-A consumer will reach their fitness goals quicker when they track their workout progress.
+An employee or manager would benefit from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
 ### Functionality
 
-When the user loads the page, they will be given the option to create a new workout, or continue with their last workout.
+Given a table of random profiles, when the user loads the page, a table of employee content should render. 
 
-The user is be able to:
+The user is able to:
 
-  * Add exercises to a previous workout plan.
+  * Sort the table by at first and last name category.
 
-  * Add new exercises to a new workout plan.
-
-  * View multiple the combined weight of multiple exercises on the `stats` page.
+  * Filter the users by at least one property.
   
 
  ### Contribution
  
- [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/joeFunction/workoutTracker/issues)
+ [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/joeFunction/employeeDirectory/issues)
   
   
   ### 	Author 
