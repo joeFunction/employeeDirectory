@@ -1,4 +1,4 @@
-### Unit 19 React: Employee Directory
+### React Project: Employee Directory
 
 The theme of this application is based on a employee directory with React. This assignment breaks up the application's UI into components, component states, and is responsive to user events.
    
