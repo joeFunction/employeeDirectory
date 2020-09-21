@@ -18,7 +18,7 @@ The theme of this application is based on an employee directory with React. This
   
   ### Usage
 
-An employee or manager would benefit from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+An employee or manager would benefit from being able to view non-sensitive data about employees. It would be particularly helpful to be able to filter employees by name.
 
 ### Functionality
 
